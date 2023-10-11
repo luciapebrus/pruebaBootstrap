@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand color1" href="#">ALICIA FERNANDEZ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link color1" href="#">Vida</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color2" aria-disabled="true">Trabajo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color2" aria-disabled="true">Logros</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item dropdown d-lg-none">
+                    <a class="nav-link dropdown-toggle color2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Opciones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><button type="button" class="dropdown-item">Opcion 1</button></li>
+                        <li><button type="button" class="dropdown-item">Opcion 2</button></li>
+                        <li><button type="button" class="dropdown-item">Opcion 3</button></li>
+                        <li><button type="button" class="dropdown-item">Opcion 4</button></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <h3 class="titulo">Historia</h3>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <span class="parrafo">Esto se tiene que mover</span>
+          </div>
+          <div class="carousel-item">
+            <span class="parrafo">este parrafo tambien se mueve</span>
+          </div>
+          <div class=" carousel-item">
+            <span class="parrafo">este otro parrafo tambien se mueve mas</span>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+     <ul class="list-group d-none d-lg-block">
+        <li class="list-group-item text-decoration-underline">Opcion 1</li>
+        <li class="list-group-item text-decoration-underline">Opcion 2</li>
+        <li class="list-group-item text-decoration-underline">Opcion 3</li>
+        <li class="list-group-item text-decoration-underline">Opcion 4</li>
+      </ul>
+     
+      <div class="container text-center">
+        <div class="row">
+          <div class="col tamaño-letra">
+            Nació en el barrio de Flores - Ciudad de Buenos Aires - en 1944. Comenzó a trabajar como alfabetizadora de niños en barriadas populares a los 15 años.
+          </div>
+          <div class="col order-5 tamaño-letra">
+            Mientras estudiaba psicopedagogía en la Universidad del Salvador (en Buenos Aires) se desempeñó primero como maestra de nivel primario y después como asistente educacional en gabinetes escolares de escuelas públicas del Gran Buenos Aires. Paralelamente inició experiencias en el área de salud, en hospitales públicos. Su primer ámbito -aún como estudiante- fue en la Casa Cuna.
+          </div>
+          <div class="col order-1 tamaño-letra">
+            Egresada como psicopedagoga, inició la carrera de Psicología en la Universidad de Buenos Aires e ingresó al equipo interdisciplinario coordinado por la Prof. Sara Paín -integrado por psicoanalistas, psicólogos, psicopedagogos y licenciados en Ciencias de la Educación- en el hospital Piñeiro (Buenos Aires). Este equipo fue disuelto por la dictadura en 1976.
+          </div>
+        </div>
+      </div>     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
